@@ -1,0 +1,12 @@
+.flash-effect {
+    background-color: yellow;
+    transition: background-color 0.8s ease-in-out;
+    padding: 2px;
+    border-radius: 3px;
+    animation: fadeOut 1s forwards; /* Apply animation here */
+}
+
+@keyframes fadeOut {
+    0% { background-color: yellow; }
+    100% { background-color: transparent; }
+}
